@@ -1,0 +1,31 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Einleitung und Produktdesign.blg'
+[88] biber-darwin:322> INFO - === Sat Dec 19, 2020, 19:58:25
+[103] Biber.pm:415> INFO - Reading 'Einleitung und Produktdesign.bcf'
+[211] Biber.pm:943> INFO - Found 17 citekeys in bib section 0
+[227] Biber.pm:4256> INFO - Processing section 0
+[227] Utils.pm:75> INFO - Globbing data source 'Literatur.bib'
+[227] Utils.pm:91> INFO - Globbed data source 'Literatur.bib' to Literatur.bib
+[238] Biber.pm:4455> INFO - Looking for bibtex format file 'Literatur.bib' for section 0
+[240] bibtex.pm:1653> INFO - LaTeX decoding ...
+[258] bibtex.pm:1471> INFO - Found BibTeX data source 'Literatur.bib'
+[291] Utils.pm:304> WARN - year field 'April 2017' in entry 'Greggersen' is not an integer - this will probably not sort properly.
+[297] Utils.pm:304> WARN - year field 'Februar 2018' in entry 'GablerWirtschaftslexikon' is not an integer - this will probably not sort properly.
+[302] Utils.pm:304> WARN - year field 'Juni, 2017' in entry 'Airbus' is not an integer - this will probably not sort properly.
+[306] Utils.pm:304> WARN - year field 'Mai, 2017' in entry 'Stern' is not an integer - this will probably not sort properly.
+[314] Utils.pm:304> WARN - year field 'März, 2020' in entry 'CruiseCritic' is not an integer - this will probably not sort properly.
+[321] Utils.pm:304> WARN - year field 'Februar, 2016' in entry 'Umweltbundesamtes' is not an integer - this will probably not sort properly.
+[327] Utils.pm:304> WARN - year field 'März, 2019' in entry 'Prenner' is not an integer - this will probably not sort properly.
+[330] Utils.pm:304> WARN - year field 'Januar, 2017' in entry 'Gutberlet' is not an integer - this will probably not sort properly.
+[333] Utils.pm:304> WARN - year field 'Dezember, 2011' in entry 'Spiegel' is not an integer - this will probably not sort properly.
+[336] Utils.pm:304> WARN - year field 'Oktober, 2017' in entry 'Greenpeace' is not an integer - this will probably not sort properly.
+[339] Utils.pm:304> WARN - year field 'Juli, 2008' in entry 'GreenpeaceRanking' is not an integer - this will probably not sort properly.
+[349] Utils.pm:304> WARN - year field 'Februar, 2019' in entry 'Umweltbundesamt2019' is not an integer - this will probably not sort properly.
+[350] Utils.pm:304> WARN - I didn't find a database entry for 'Boeing' (section 0)
+[373] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[373] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[373] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[373] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[393] bbl.pm:652> INFO - Writing 'Einleitung und Produktdesign.bbl' with encoding 'UTF-8'
+[401] bbl.pm:755> INFO - Output to Einleitung und Produktdesign.bbl
+[401] Biber.pm:128> INFO - WARNINGS: 13

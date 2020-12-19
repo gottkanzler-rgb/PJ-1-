@@ -1,0 +1,509 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Airbus}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b110aa10dc3e3aa939ba099440938e65}{%
+           family={Airbus},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{fullhash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{bibnamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authorbibnamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authornamehash}{b110aa10dc3e3aa939ba099440938e65}
+      \strng{authorfullhash}{b110aa10dc3e3aa939ba099440938e65}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Airbus presents the A380plus}}
+      \field{year}{Juni, 2017}
+      \verb{urlraw}
+      \verb https://www.airbus.com/newsroom/press-releases/en/2017/06/airbus-presents-the-a380plus.html
+      \endverb
+      \verb{url}
+      \verb https://www.airbus.com/newsroom/press-releases/en/2017/06/airbus-presents-the-a380plus.html
+      \endverb
+    \endentry
+    \entry{Spiegel}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5196ffb39aeaf6f40f6d68b562335160}{%
+           family={Bojanowski},
+           familyi={B\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5196ffb39aeaf6f40f6d68b562335160}
+      \strng{fullhash}{5196ffb39aeaf6f40f6d68b562335160}
+      \strng{bibnamehash}{5196ffb39aeaf6f40f6d68b562335160}
+      \strng{authorbibnamehash}{5196ffb39aeaf6f40f6d68b562335160}
+      \strng{authornamehash}{5196ffb39aeaf6f40f6d68b562335160}
+      \strng{authorfullhash}{5196ffb39aeaf6f40f6d68b562335160}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spiegel Wissenschaft}
+      \field{title}{{Europas Gift verseucht Spielplätze in Afrika}}
+      \field{year}{Dezember, 2011}
+      \verb{urlraw}
+      \verb https://www.spiegel.de/wissenschaft/technik/uno-studie-zu-elektroschrott-europas-gift-verseucht-spielplaetze-in-afrika-a-794843.html
+      \endverb
+      \verb{url}
+      \verb https://www.spiegel.de/wissenschaft/technik/uno-studie-zu-elektroschrott-europas-gift-verseucht-spielplaetze-in-afrika-a-794843.html
+      \endverb
+    \endentry
+    \entry{CelebrityCruises}{article}{}
+      \name{author}{1}{}{%
+        {{hash=07bfdd192ec46009922860f499ac7384}{%
+           family={Cruises},
+           familyi={C\bibinitperiod},
+           given={Celebrity},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{07bfdd192ec46009922860f499ac7384}
+      \strng{fullhash}{07bfdd192ec46009922860f499ac7384}
+      \strng{bibnamehash}{07bfdd192ec46009922860f499ac7384}
+      \strng{authorbibnamehash}{07bfdd192ec46009922860f499ac7384}
+      \strng{authornamehash}{07bfdd192ec46009922860f499ac7384}
+      \strng{authorfullhash}{07bfdd192ec46009922860f499ac7384}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Save the Waves}}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.celebritycruises.com/about-us/sustainability-efforts/save-the-waves
+      \endverb
+      \verb{url}
+      \verb https://www.celebritycruises.com/about-us/sustainability-efforts/save-the-waves
+      \endverb
+    \endentry
+    \entry{Wikipedia}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9cc9ca6d866363132590cd2e88061fde}{%
+           family={Deef},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9cc9ca6d866363132590cd2e88061fde}
+      \strng{fullhash}{9cc9ca6d866363132590cd2e88061fde}
+      \strng{bibnamehash}{9cc9ca6d866363132590cd2e88061fde}
+      \strng{authorbibnamehash}{9cc9ca6d866363132590cd2e88061fde}
+      \strng{authornamehash}{9cc9ca6d866363132590cd2e88061fde}
+      \strng{authorfullhash}{9cc9ca6d866363132590cd2e88061fde}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia.org}
+      \field{title}{{Darstellung der Umsatz-, Gewinn- und Gewinnratekurve im zeitlichen Verlauf des Produktlebenszyklus}}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Produktlebenszyklus
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Produktlebenszyklus
+      \endverb
+    \endentry
+    \entry{CruiseCritic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a4246565c3a0c3b6ca325f13ac4cdf57}{%
+           family={Elissa\bibnamedelima Garay},
+           familyi={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Melissa\bibnamedelima Paloti},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \strng{fullhash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \strng{bibnamehash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \strng{authorbibnamehash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \strng{authornamehash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \strng{authorfullhash}{a4246565c3a0c3b6ca325f13ac4cdf57}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CruiseCritic}
+      \field{title}{{Green Cruising}}
+      \field{year}{März, 2020}
+      \verb{urlraw}
+      \verb https://www.cruisecritic.com/articles.cfm?ID=528
+      \endverb
+      \verb{url}
+      \verb https://www.cruisecritic.com/articles.cfm?ID=528
+      \endverb
+    \endentry
+    \entry{Umweltbundesamt2019}{article}{}
+      \name{author}{7}{}{%
+        {{hash=cb881656c9f7a561d43d44d6e724eae7}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Dr.\bibnamedelimi Corinna},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=26ecd23c78f9bc4480036ad03fd0de17}{%
+           family={Moch},
+           familyi={M\bibinitperiod},
+           given={Katja},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4d53b34c3002fa78f55051b126d7d0a1}{%
+           family={Prakash},
+           familyi={P\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2e8f5fb2b6d105412cbf08e69bbd1e1c}{%
+           family={e.V.},
+           familyi={e\bibinitperiod},
+           given={Dr.\bibnamedelimi Jenny\bibnamedelimb Teufel\bibnamedelima Öko-Institut},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim Ö\bibinithyphendelim I\bibinitperiod}}}%
+        {{hash=a584aaa0a589018d4e80745346dcd9e0}{%
+           family={Stieß},
+           familyi={S\bibinitperiod},
+           given={Freiburg\bibnamedelimb Dr.\bibnamedelimi Immanuel},
+           giveni={F\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=932f856b56bbc631063a3db5171f71e4}{%
+           family={Forschung},
+           familyi={F\bibinitperiod},
+           given={Sarah\bibnamedelimb KresseI\bibnamedelimb S.\bibnamedelimi O.\bibnamedelimi E.\bibnamedelimi Institut},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim I\bibinitperiod},
+           prefix={für\bibnamedelima sozial-ökologische},
+           prefixi={f\bibinitperiod\bibinitdelim s\bibinithyphendelim ö\bibinitperiod}}}%
+        {{hash=3e7eaaf59069961aad328df932eae021}{%
+           family={network},
+           familyi={n\bibinitperiod},
+           given={Frankfurt\bibnamedelimb Barbara\bibnamedelima Birzle-Harderergo},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim B\bibinithyphendelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{134ad54ed9a8742457699b61f0a5b04e}
+      \strng{fullhash}{69d12bb250c215d5ee34b74eaefa9512}
+      \strng{bibnamehash}{134ad54ed9a8742457699b61f0a5b04e}
+      \strng{authorbibnamehash}{134ad54ed9a8742457699b61f0a5b04e}
+      \strng{authornamehash}{134ad54ed9a8742457699b61f0a5b04e}
+      \strng{authorfullhash}{69d12bb250c215d5ee34b74eaefa9512}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Umweltbundesamt}
+      \field{title}{{Nachhaltige Produkte – attraktiv für Verbraucherinnen und Verbraucher?}}
+      \field{year}{Februar, 2019}
+      \verb{urlraw}
+      \verb https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2019-02-19_texte_11-2019_nachhaltige-produkte.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.umweltbundesamt.de/sites/default/files/medien/1410/publikationen/2019-02-19_texte_11-2019_nachhaltige-produkte.pdf
+      \endverb
+    \endentry
+    \entry{GreenpeaceRanking}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7628ecff54896cb076074261828e6623}{%
+           family={Greenpeace},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7628ecff54896cb076074261828e6623}
+      \strng{fullhash}{7628ecff54896cb076074261828e6623}
+      \strng{bibnamehash}{7628ecff54896cb076074261828e6623}
+      \strng{authorbibnamehash}{7628ecff54896cb076074261828e6623}
+      \strng{authornamehash}{7628ecff54896cb076074261828e6623}
+      \strng{authorfullhash}{7628ecff54896cb076074261828e6623}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Klimaretter.Info}
+      \field{title}{{Greenpeace-Ranking zu grüner Elektronik}}
+      \field{year}{Juli, 2008}
+      \verb{urlraw}
+      \verb http://www.klimaretter.info/wirtschaft/hintergrund/1099-greenpeace-ranking-zu-gr-elektronik
+      \endverb
+      \verb{url}
+      \verb http://www.klimaretter.info/wirtschaft/hintergrund/1099-greenpeace-ranking-zu-gr-elektronik
+      \endverb
+    \endentry
+    \entry{Greggersen}{article}{}
+      \name{author}{1}{}{%
+        {{hash=feb5f9db6ad6de283d74918d54a60c58}{%
+           family={Greggersen},
+           familyi={G\bibinitperiod},
+           given={Valentin},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{feb5f9db6ad6de283d74918d54a60c58}
+      \strng{fullhash}{feb5f9db6ad6de283d74918d54a60c58}
+      \strng{bibnamehash}{feb5f9db6ad6de283d74918d54a60c58}
+      \strng{authorbibnamehash}{feb5f9db6ad6de283d74918d54a60c58}
+      \strng{authornamehash}{feb5f9db6ad6de283d74918d54a60c58}
+      \strng{authorfullhash}{feb5f9db6ad6de283d74918d54a60c58}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reset}
+      \field{title}{{Denken in Kreisläufen - Die Circular Economy als Schlüssel für nachhaltiges Wirtschaften?}}
+      \field{year}{April 2017}
+      \verb{urlraw}
+      \verb https://reset.org/knowledge/denken-kreislaeufen-die-circular-economy-als-schluessel-fuer-nachhaltiges-wirtschaften-072
+      \endverb
+      \verb{url}
+      \verb https://reset.org/knowledge/denken-kreislaeufen-die-circular-economy-als-schluessel-fuer-nachhaltiges-wirtschaften-072
+      \endverb
+    \endentry
+    \entry{Gruenes_Kino}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1a94bbd0f1c4c11404d26da432b0df50}{%
+           family={Grünes_Kino},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \strng{fullhash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \strng{bibnamehash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \strng{authorbibnamehash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \strng{authornamehash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \strng{authorfullhash}{1a94bbd0f1c4c11404d26da432b0df50}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Zielsetzungen der Kreislaufwirtschaft}}
+      \verb{urlraw}
+      \verb https://xn--grneskino-r9a.de/blog/zielsetzungen-der-kreislaufwirtschaft/
+      \endverb
+      \verb{url}
+      \verb https://xn--grneskino-r9a.de/blog/zielsetzungen-der-kreislaufwirtschaft/
+      \endverb
+    \endentry
+    \entry{Gutberlet}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ccd18d3a11c9e3c5257e029dbde085fa}{%
+           family={Gutberlet},
+           familyi={G\bibinitperiod},
+           given={Dr.\bibnamedelimi Anna-Lena},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \strng{fullhash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \strng{bibnamehash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \strng{authorbibnamehash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \strng{authornamehash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \strng{authorfullhash}{ccd18d3a11c9e3c5257e029dbde085fa}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Elekktronikpraxis}
+      \field{title}{{Was ist geplante Obsoleszenz?}}
+      \field{year}{Januar, 2017}
+      \verb{urlraw}
+      \verb https://www.elektronikpraxis.vogel.de/was-ist-geplante-obsoleszenz-a-576644/
+      \endverb
+      \verb{url}
+      \verb https://www.elektronikpraxis.vogel.de/was-ist-geplante-obsoleszenz-a-576644/
+      \endverb
+    \endentry
+    \entry{Stern}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f6913e99980ff1b61b661e4673409aa0}{%
+           family={Kramper},
+           familyi={K\bibinitperiod},
+           given={Gernot},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6913e99980ff1b61b661e4673409aa0}
+      \strng{fullhash}{f6913e99980ff1b61b661e4673409aa0}
+      \strng{bibnamehash}{f6913e99980ff1b61b661e4673409aa0}
+      \strng{authorbibnamehash}{f6913e99980ff1b61b661e4673409aa0}
+      \strng{authornamehash}{f6913e99980ff1b61b661e4673409aa0}
+      \strng{authorfullhash}{f6913e99980ff1b61b661e4673409aa0}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stern}
+      \field{title}{{Tschüss Nespresso: Kapselkaffee ohne Alu-Müll}}
+      \field{year}{Mai, 2017}
+      \verb{urlraw}
+      \verb https://www.stern.de/wirtschaft/news/oekologische-kaffeekapseln-ohne-das-nespresso-problem-mit-dem-alu-muell-6855918.html
+      \endverb
+      \verb{url}
+      \verb https://www.stern.de/wirtschaft/news/oekologische-kaffeekapseln-ohne-das-nespresso-problem-mit-dem-alu-muell-6855918.html
+      \endverb
+    \endentry
+    \entry{GablerWirtschaftslexikon}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9e4c702ee2aac5d131a3e0084376e6ed}{%
+           family={Markgraf},
+           familyi={M\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Daniel},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \strng{fullhash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \strng{bibnamehash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \strng{authorbibnamehash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \strng{authornamehash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \strng{authorfullhash}{9e4c702ee2aac5d131a3e0084376e6ed}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{GablerWirtschaftslexikon}
+      \field{title}{Produktgestaltung}
+      \field{year}{Februar 2018}
+      \verb{urlraw}
+      \verb https://wirtschaftslexikon.gabler.de/definition/produktgestaltung-46586/version-269864
+      \endverb
+      \verb{url}
+      \verb https://wirtschaftslexikon.gabler.de/definition/produktgestaltung-46586/version-269864
+      \endverb
+    \endentry
+    \entry{Umweltbundesamtes}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4d53b34c3002fa78f55051b126d7d0a1}{%
+           family={Prakash},
+           familyi={P\bibinitperiod},
+           given={Siddharth},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a3351f9c487f509a4db0cd953d0edfb}{%
+           family={Dehoust},
+           familyi={D\bibinitperiod},
+           given={Günther},
+           giveni={G\bibinitperiod}}}%
+        {{hash=a0ac1e7b6855de067e812250dd3cea2d}{%
+           family={Gsell},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f1cabe447015f90fa57e112dd85e7fd4}{%
+           family={Schleicher},
+           familyi={S\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9e807ab176d448f0c04f6230152d9a8e}{%
+           family={Stamminger},
+           familyi={S\bibinitperiod},
+           given={Prof.\bibnamedelimi Dr.\bibnamedelimi Rainer},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d87676c02e2ef76c82690daf0033f75}
+      \strng{fullhash}{534ecf0ab837de954c9bb2c682d910df}
+      \strng{bibnamehash}{3d87676c02e2ef76c82690daf0033f75}
+      \strng{authorbibnamehash}{3d87676c02e2ef76c82690daf0033f75}
+      \strng{authornamehash}{3d87676c02e2ef76c82690daf0033f75}
+      \strng{authorfullhash}{534ecf0ab837de954c9bb2c682d910df}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Umweltbundesamt}
+      \field{title}{{Einfluss der Nutzungsdauer von Produkten auf ihre Umweltwirkung: Schaffung einer Informationsgrundlage und Entwicklung von Strategien gegen „Obsoleszenz“}}
+      \field{year}{Februar, 2016}
+      \verb{urlraw}
+      \verb https://www.umweltbundesamt.de/publikationen/einfluss-der-nutzungsdauer-von-produkten-auf-ihre-1
+      \endverb
+      \verb{url}
+      \verb https://www.umweltbundesamt.de/publikationen/einfluss-der-nutzungsdauer-von-produkten-auf-ihre-1
+      \endverb
+    \endentry
+    \entry{Prenner}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a764f5bc7616bbb21e11523ec8257718}{%
+           family={Prenner},
+           familyi={P\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a764f5bc7616bbb21e11523ec8257718}
+      \strng{fullhash}{a764f5bc7616bbb21e11523ec8257718}
+      \strng{bibnamehash}{a764f5bc7616bbb21e11523ec8257718}
+      \strng{authorbibnamehash}{a764f5bc7616bbb21e11523ec8257718}
+      \strng{authornamehash}{a764f5bc7616bbb21e11523ec8257718}
+      \strng{authorfullhash}{a764f5bc7616bbb21e11523ec8257718}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Futurezone}
+      \field{title}{{Warum werden Akkus mit der Zeit schlechter?}}
+      \field{year}{März, 2019}
+      \verb{urlraw}
+      \verb https://futurezone.at/produkte/warum-werden-akkus-mit-der-zeit-schlechter/400422761
+      \endverb
+      \verb{url}
+      \verb https://futurezone.at/produkte/warum-werden-akkus-mit-der-zeit-schlechter/400422761
+      \endverb
+    \endentry
+    \entry{Greenpeace}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f5b926234bbfe3e136a6acee74ff2b4f}{%
+           family={Santen},
+           familyi={S\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \strng{fullhash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \strng{bibnamehash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \strng{authorbibnamehash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \strng{authornamehash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \strng{authorfullhash}{f5b926234bbfe3e136a6acee74ff2b4f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Greenpeace e.V}
+      \field{title}{{Greenpeace-Ratgeber „GrüneElektronik 2017“}}
+      \field{year}{Oktober, 2017}
+      \verb{urlraw}
+      \verb https://www.greenpeace.de/sites/www.greenpeace.de/files/publications/20171017-factsheet-greenpeace-green-it-guide.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.greenpeace.de/sites/www.greenpeace.de/files/publications/20171017-factsheet-greenpeace-green-it-guide.pdf
+      \endverb
+    \endentry
+    \entry{WERTGARANTIE}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6148b5d9b5bab32364d7698a0d5f973c}{%
+           family={WERTGARANTIE},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \strng{fullhash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \strng{bibnamehash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \strng{authorbibnamehash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \strng{authornamehash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \strng{authorfullhash}{6148b5d9b5bab32364d7698a0d5f973c}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Ist Ihr Handy kaputt? Das sind die häufigsten Schäden}}
+      \verb{urlraw}
+      \verb https://www.wertgarantie.de/ratgeber/tipps-und-tricks/smartphone/ist-ihr-handy-kaputt-das-sind-die-haeufigsten-schaeden
+      \endverb
+      \verb{url}
+      \verb https://www.wertgarantie.de/ratgeber/tipps-und-tricks/smartphone/ist-ihr-handy-kaputt-das-sind-die-haeufigsten-schaeden
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{Boeing}
+\endrefsection
+\endinput
+
