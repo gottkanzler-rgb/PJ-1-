@@ -1,0 +1,233 @@
+\documentclass[13pt,titlepage]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{color, colortbl}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\restylefloat{table}
+\usepackage{verbatim}
+\usepackage{hyperref}
+\usepackage [backend=biber]{biblatex}
+
+\addbibresource{sources.bib}
+
+\usepackage[left=3cm,
+  right=2cm,
+  top=2.5cm,
+  bottom=2cm,
+  ]{geometry}
+
+\def\code#1{\texttt{#1}}
+
+\bibliography{sources.bib}
+
+\begin{document}
+
+
+\section*{Design für Demontage}
+Sound Barrier, Inc., muss entscheiden, welches von zwei verschiedenen Lautsprecher-Designs umweltfreundlicher ist.
+\paragraph{\textbf{ANSATZ} $\triangleright$ } Das Designteam erfasste folgenden Informationen für die zwei Audioanlagen-Designs, den Harmonizer und den Rocker:
+\begin{itemize}
+\item[1] Wiederverkaufswert der Komponenten minus der Transportkosten zur Demontage
+\item[2] Einnahmen aus dem Wiederverwertung
+\item[3] Bearbeitungskosten bzgl. der Demontage, Sortierung, Reinigung und Verpackung
+\item[4] Entsorgungskosten, einschließlich Transport, Gebühren, Steuern und Bearbeitungszeit
+\end{itemize}
+
+\paragraph{\textbf{LÖSUNG $\triangleright$}} Das Designteam entwickelte die folgende Einnahmen- und Kosteninformationen für die Designvarianten. Alle folgenden Kennzahlen sind in der Einheit GE angegeben.
+
+
+\paragraph{Harmonizer} $~$
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\rowcolor[HTML]{343434} 
+{\color[HTML]{FFFFFF}\scriptsize TEIL} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize WIEDERVERKAUFS-\\ \scriptsize WERT / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize EINNAHMEN AUS\\ \scriptsize RECYCLING / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize BEARBEITUNGS-\\ \scriptsize KOSTEN / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}} \scriptsize ENTSORGUNGS-\\ \scriptsize KOSTEN / STÜCK\end{tabular}} \\ \hline
+Platine & 5,93 GE & 1,54 GE & 3,46 GE & 0,00 GE \\ \hline
+\begin{tabular}[c]{@{}l@{}}Laminierte\\ Rückwand\end{tabular} & 0,00 & 0,00 & 4,53 & 1,74 \\ \hline
+Spule & 8,56 & 5,65 & 6,22 & 0,00 \\ \hline
+Prozessor & 9,17 & 2,65 & 3,12 & 0,00 \\ \hline
+Rahmen & 0,00 & 0,00 & 2,02 & 1,23 \\ \hline
+\begin{tabular}[c]{@{}l@{}}Gehäuse aus\\ Aluminium\end{tabular} & 11,83 & 2,10 & 2,98 & 0,00 \\ \hline
+Gesamt & 35,49 GE & 11,94 GE & 22,33 GE & 2,97 GE\\ \hline
+\end{tabular}
+\end{table}
+
+
+\paragraph{Rocker} $~$
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\rowcolor[HTML]{343434} 
+{\color[HTML]{FFFFFF} \scriptsize TEIL} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize WIEDERVERKAUFS-\\ \scriptsize WERT / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize EINNAHMEN AUS\\ \scriptsize RECYCLING / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize BEARBEITUNGS-\\ \scriptsize KOSTEN / STÜCK\end{tabular}} & {\color[HTML]{FFFFFF} \begin{tabular}[c]{@{}c@{}}\scriptsize ENTSORGUNGS-\\ \scriptsize KOSTEN / STÜCK\end{tabular}} \\ \hline
+Platine & 7,88 GE & 3,54 GE & 2,12 GE & 0,00 GE \\ \hline
+Spule & 6,67 & 4,56 & 3,32 & 0,00 \\ \hline
+Prozessor & 8,45 & 4,65 & 3,43 & 0,00\\ \hline
+Rahmen & 0,00 & 0,00 & 4,87 & 1,97\\ \hline
+\begin{tabular}[c]{@{}l@{}}Gehäuse aus\\ Plastik\end{tabular} & 0,00 & 0,00 & 4,65 & 3,98\\ \hline
+Gesamt & 23,00 GE & 12,75 GE & 18,39 GE & 5,95 GE \\ \hline
+\end{tabular}
+\end{table}
+
+\begin{center}
+\noindent Mit Hilfe der Gleichung (S5-1) kann das Designteam die beiden Designoptionen vergleichen:
+\linebreak
+\linebreak 
+\textit{Erlösrückgewinn = Wiederverkaufswert + Einnahmen aus Recycling
+\linebreak
+\hspace*{35mm} – Bearbeitungskosten – Entsorgungskosten (S5-1)}
+\linebreak
+\linebreak 
+\textit{Erlösrückgewinn für Hamonizer = \$35.49 + \$11.94 - \$22.33 - \$2.97 = \$22.13 }
+\linebreak
+\textit{Erlösrückgewinn für Rocker = \$23.00 + \$12.75 - \$18.39 - \$5.95 = \$11.41}
+\end{center}
+
+\paragraph{\textbf{\"UBERBLICK $\triangleright$}} Nach Analyse der umweltbezogenen Einnahmen- und Kostenkomponenten jedes Lautsprecherdesigns gelangt das Designteam zu dem Urteil, dass der Harmonizer die geeignetere umweltfreundliche Designalternative ist, da er eine höhere Einnahmequelle bietet. Beachten Sie, dass das Team davon ausgeht, dass beide Produkte die gleiche Marktannahme, Rentabilität und Umweltfreundlichkeit aufweisen.
+\paragraph{\textbf{\"UBUNGSAUFGABE $\triangleright$}} Was würde passieren, wenn es eine Anpassung in der Lieferkette gäbe, durch welche sich die Verarbeitungs- und Entsorgungskosten für die laminierte Rückwand des Harmonizers verdreifachen würden? [Antwort: Die Rückeinnahmen aus dem Harmonizer sind \$35.49 + \$11.94 - \$31.39 - \$6.45 = \$9.59. Dies liegt unter den Einnahmen des Rockers in Höhe von \$11,41, wodurch der Rocker zur umweltfreundlichen Designalternative wird, da er eine höhere Einnahmequelle bietet.]
+
+\paragraph{\textbf{VERWANDTE PROBLEME $\triangleright$}} x S5.1, S5.2, S5.3, S5.9, S5.12, S5.13, S5.14
+
+
+\section*{Produktion Prozess}
+Hersteller suchen nach Möglichkeiten, die Menge an Ressourcen im Produktionsprozess zu redu-zieren. Die Möglichkeiten zur Reduzierung der Umweltbelastung während der Produktion drehen sich zumeist um die Faktoren Energie, Wasser und Umweltverschmutzung. Einsparungen von Ener-gie und Verbesserung der Energieeffizienz entstehen durch den Einsatz alternativer Energien und energieeffizienterer Maschinen.  Beispielsweise:
+\begin{itemize}
+\item[•] S.C. Johnson baute ein eigenes Kraftwerk, das mit Erd- und Methangas aus einer nahen gele-genen Mülldeponie versorgt wird, wodurch die Abhängigkeit von Kohlekraftwerken verringert wurde.
+\item[•] PepsiCo entwickelte Resource Conversation (ReCon), ein Diagnosetool zum Verständnis und zur Reduzierung des innerbetrieblichen Wasser- und Energieverbrauchs.  In den ersten zwei Jahren half ReCon Produktionsanalgen weltweit, 2,2 Milliarden Liter Wassereinsparungen zu erzielen, mit entsprechenden Kosteneinsparungen von fast 2,7 Millionen Dollar.
+\item[•] Der Fast-Food-Hersteller Frito-Lay beschloss, Wasser aus Kartoffeln zu gewinnen, die zu 80\% aus Wasser bestehen. Jährlich werden in einer einzelnen Fabrik 350.000 Tonnen Kartoffeln zur Produktion von Kartoffelchips verwendet. Nach Verarbeitung der Kartoffeln, nutzt das Unter-nehmen das extrahierte Wasser wieder für die tägliche Produktion der jeweiligen Fabrik.
+\end{itemize}
+
+\noindent Durch derartige und vergleichbare Fortschritte im Produktionsprozess werden sowohl Kosten als auch Umweltbelastungen gesenkt. Dabei wird weniger Energie verbraucht, und es enden deutlich weniger Rohstoffe auf Mülldeponien.
+
+\section*{Logistik}
+Während sich Produkte durch die Lieferkette bewegen, bemühen sich Betriebsleiter um effiziente Routen- und Liefernetzwerke, genau wie sie anstreben, die Betriebskosten zu senken. Hierdurch wird die Umweltbelastung reduziert. Management-Analysetechniken (wie lineare Programmie-rung, Software für Warteschlangen und Fahrzeugrouting) helfen Firmen weltweit bei der Optimie-rung durchdachter Lieferketten- und Distributionsnetzwerke. Netzwerke von Containerschiffen, Flugzeugen, Zügen und LKWs werden ausgewertet, um die Anzahl der zurückgelegten Meilen oder die benötigte Stundenzahl für Lieferungen zu reduzieren. Beispielsweise:
+\begin{itemize}
+\item[•] Der Versanddienstleister UPS hat festgestellt, dass Linkskurven die Lieferzeit verlängern. Dies wiederum erhöht den Treibstoffverbrauch und die CO2-Emissionen. Daher konzipiert UPS sei-ne Lieferrouten mit möglichst wenigen Linkskurven. In ähnlicher Weise fliegen Flugzeuge in verschiedenen Höhelagen und Flugrouten, um günstigere Windkonditionen zu nutzen und so den Treibstoffverbrauch und die CO2-Emissionen zu reduzieren.
+\item[•] Lebensmittelhersteller verfügen mittlerweile über Lastwagen mit drei Temperaturzonen (gefroren, gekühlt und ungekühlt), anstatt wie früher für jede Warenart einen eigenen Fahrzeug-typ einzusetzen.
+\item[•] Das Unternehmen Whirlpool hat seine Verpackung radikal überarbeitet, um "Beulen und Dellen" an Geräten bei der Lieferung zu vermeiden und konnte dadurch enorme Einsparungen bei den Transport- und Garantiekosten erzielen.
+\end{itemize}
+
+\noindent Zur weiteren Verbesserung der logistischen Effizienz evaluieren die Betriebsleiter ebenfalls Ausrüstungsalternativen unter Berücksichtigung der Kosten, der Amortisationsdauer und der vom Unternehmen festgelegten Umweltziele. Beispiel S2 befasst sich mit der Entscheidungsfindung unter Betrachtung der Life-Cycle-Ownership-Kosten. Ein Betrieb muss entscheiden, ob er mehr im Voraus für umweltfreundliche Fahrzeuge zahlt, um seine Nachhaltigkeitsziele zu erreichen, oder ob er weniger im Voraus für Fahrzeuge ausgibt, welche die Ziele nicht unterstützen.
+
+\section*{Beispiel S2: Life-Cycle-Ownership und Crossover-Analyse}
+Blue Star startet einen neuen Vertriebsservice, der Autoteile an die Serviceabteilungen regionaler Autohändler liefert. Blue Star hat zwei Kleinlaster gefunden, welche für die Aufgabe geeignet wären, und muss nun einen auswählen, um diesen neuen Service anbieten zu können. Der Ford Tri-Van, erhältlich für 28.000 GE, verwendet normales bleifreies Benzin mit einer durchschnittlichen Kraftstoffeffizienz von 24 Meilen pro Gallone. Die Betriebskosten des TriVan belaufen sich auf  0,20 GE pro Meile. Der CityVan, ein Hybrid-Lkw, kostet in der Anschaffung 32.000 GE und verbraucht normales bleifreies Benzin und Batterieantrieb, er erreicht durchschnittlich 37 Meilen pro Gallone. Die Betriebskosten des CityVan belaufen sich auf 0,22 GE pro Meile. Die jährlich zurückgelegte Stre-cke wird auf ca. 22.000 Meilen geschätzt, wobei die Lebensdauer der beiden Fahrzeuge auf 8 Jahre geschätzt wird. Der durchschnittliche Benzinpreis beträgt 4,25 GE pro Gallone.
+
+\paragraph{\textbf{ANSATZ} $\triangleright$ }
+Blue Star wendet Gleichung (S5-2) an, um die Gesamtlebenszykluskosten für jedes Fahrzeug zu bewerten:
+Gesamtlebenszykluskosten = Kosten des Fahrzeugs + Lebenszykluskosten des Kraftstoffs + Lebenszyklus-Betriebskosten (S5-2)\\
+a) Welches Modell ist, basierend auf den Lebenszykluskosten, die beste Wahl?\\
+b) Wie viele Meilen m\"ussen gefahren werden, damit bei beiden Lastw\"agen Kostengleichheit herrscht?\\
+c) Nach wie vielen Jahren wird der Break-Even-Point erreicht?
+
+\paragraph{\textbf{LÖSUNG} $\triangleright$ }\mbox{}\\
+
+a) \\\mbox{}\\
+Ford TriVan:\\
+
+$$ Gesamtlebenszykluskosten = \$28000 +(\frac{22000\frac{Meilen}{Jahr}}{24 \frac{Meilen}{Gallone}}) \cdot (\$4.25/Gallone) \cdot (8 \ Jahre)$$ \\ $$+ 22000 \frac{Meilen}{Jahr} \cdot  (\$0.20/Meile) \cdot  (8 \ Jahre) = \$28000 + \$31167 + \$35200 = \$94367$$\\
+\mbox{}
+\\
+
+ Honda CityVan:\\
+$$ Gesamtlebenszykluskosten = \$32000 +(\frac{22000\frac{Meilen}{Jahr}}{37 \frac{Meilen}{Gallone}}) \cdot (\$4.25/Gallone) \cdot  (8 \ Jahre) $$\\$$+ 22000 \frac{Meilen}{Jahr} \cdot  (\$0.22/Meile) \cdot  (8 \ Jahre) = \$32000 + \$20216 + \$38720 = \$90936$$\\
+ 
+ b) Der Break-Even Point sei \emph{M} in Meilen, beide Gleichungen zu den Lebenszykluskosten werden gleichgesetzt und anschließend nach \emph{M} gel\"ost:\\
+ 
+ Gesamtkosten für Ford Trivan = Gesamtkosten f\"ur Honda CityVan\\
+ 
+ $$ \$28000 +  [ \frac{4.25\frac{\$}{Gallone}}{24\frac{Meilen}{Gallone}} + 0.20\frac{\$}{Meile}](\emph{M} \ Meilen) = \$32000 + [ \frac{4.25\frac{\$}{Gallone}}{37\frac{Meilen}{Gallone}} + 0.22\frac{\$}{Meile}](\emph{M} \ Meilen) $$\\
+ oder,\\
+ $$ \$28000 + (0.3770\frac{\$}{Meile})(\emph{M}) = \$32000 + (0.3349\frac{\$}{Meile})(\emph{M}) $$\\
+ oder,\\
+ $$ (0.0421\frac{\$}{Meile})(\emph{M}) = \$4000 $$\\
+$$ \emph{M}=\frac{\$4000}{0.0421\frac{\$}{Meile}}=95012 Meilen $$\\
+
+c) Der Break-Even Point in Jahren:
+
+$$ Break-Even Point = \frac{95012 Meilen}{22000\frac{Meilen}{Jahr}} = 4.32 \ Jahre $$
+
+\paragraph{\textbf{ERGEBNISSE} $\triangleright$ }\mbox{}\\
+
+
+a) Trotz der h\"oheren Anschaffungs- und Betriebskosten pro Meile ist der Honda CityVan die bessere Wahl. Die Ersparnisse gegen\"uber dem Modell von Ford resultieren aus dem geringeren Spritverbrauch.\\
+
+b) Der Break-Even Point befindet sich bei 95012 Meilen, was bedeutet, dass ab diesem Punkt beide Modelle die selben Kosten verursachen.\\
+
+c) Es wird 4.32 Jahre dauern, bis sich die Kosten für den Kauf eines der beiden Fahrzeuge amortisiert haben. Dies ist der Punkt der Gleichgültigkeit zwischen den beiden Fahrzeugen. Allerdings wird es  Blue Star über die erwartete Lebensdauer von 8 Jahren etwa 0.03 Dollar pro Meile weniger kosten, anstatt des Fords den Honda zu betreiben.
+
+\paragraph{\textbf{ÜBUNGEN} $\triangleright$ }
+Was w\"aren die Gesamtlebenszykluskosten f\"ur jeden Van, der Break-Even Point in Meilen und der Break-Even Point in Jahren, sollte der Benzinpreis auf \$3.25 fallen? [Antwort: Kosten für Ford TriVan: \$87033; Kosten f\"ur Honda CityVan: \$86179; Break-Even Point in Meilen: 144927; Break-Even Point in Jahren: 6.59]
+
+\paragraph{\textbf{ÄHNLICHE AUFGABEN} $\triangleright$ }
+S5.4, S5.5, S5.6, S5.10, S5.11, S5.15, S5.16, S5.17, S5.18, S5.19
+
+
+\section*{Beispiel S3}
+
+Das Unternehmen Dominos startet einen neuen, auf Umweltverträglichkeit ausgelegten, Lieferdienst für Pizzabestellungen und benötigt für die Auslieferung neue Kleinwagen. Zur Auswahl steht jeweils ein Modell mit Elektroantrieb und eines mit Dieselmotor. Da das Dominos großen Wert auf Nachhaltigkeit und Umweltverträglichkeit legt, ist es wichtig, das Fahrzeug mit der geringsten Umweltbelastung zu wählen. Dazu soll analysiert werden, welches Fahrzeug im Anwendungszweck des Unternehmens den geringsten CO2 Ausstoß generiert.\\ Bei der Herstellung des Dieselfahrzeugs fallen 8300kg CO2 an, während die Herstellung des Elektrofahrzeugs 8000kg CO2 und die Fertigung dessen Batterie 8880kg (Herstellung in China), bzw. 5952kg (Herstellung in der EU) generiert \cite{vdi}. Gemäß dem aktuellen Strommix in Deutschland schlägt ein gefahrener Kilometer mit dem E-Auto mit 93g CO2 zu Buche \cite{vdi}. Bei dem Dieselfahrzeug berechnet sich dieser Wert aus dem durchschnittlichen Verbrauch, welcher mit 4.5l/100km angegeben ist \cite{vdi}, sowie des C02 Ausstoßes pro Liter Diesel, welcher sich auf 2.65kg/l beläuft \cite{diesel}. Weiterhin wird angenommen, dass die jährliche Fahrleistung 30000km beträgt und die Nutzungsdauer des Fahrzeugs bei sechs Jahren \cite{finanzministerium} liegt.  
+\paragraph{\textbf{ANSATZ} $\triangleright$ }
+Dominos verwendet die folgende Gleichung zur Ermittlung des gesamten CO2 Ausstoßes innerhalb der Nutzungsdauer: \\
+$$Gesamtausstoß\ =\ Herstellung\ des\ Fahrzeugs\ +\ (Jahreslaufleistung\ \cdot\ CO2\ Ausstoß\ pro\ km)\ \cdot\ Nutzungsdauer$$\\
+a) Welche Antriebsart ist bezogen auf den Umweltschutz für das Unternehmen die bessere Wahl?\\
+b) Wie viele Kilometer müssen im Jahr gefahren werden, damit die CO2 Bilanz der beiden Fahrzeuge gleich ist?\\
+c) Wie müsste die Nutzungsdauer angepasst werden, sodass sich die Auswahl des Antriebs verändert?\\
+
+\paragraph{\textbf{LÖSUNG} $\triangleright$ }\mbox{}\\
+
+a) \\\mbox{}\\
+Dieselffahrzeug:\\
+
+$$ Gesamtausstoß = 8300kg\ +\ (30.000km\ \cdot (\frac{4.5\frac{l}{100km}\ \cdot  2.65\frac{kg}{l}}{100km})\ \cdot  6\ Jahre $$\\ $$=\ 29765kg\ CO2-Ausstoß\ in\ der\ gesamten\ Nutzungsdauer$$ \\
+\mbox{}
+\\
+Elektrofahrzeug mit Batterie aus China:\\
+
+$$ Gesamtausstoß = 8880kg\ +\ 8000kg\ +\ (30000km\ \cdot  (0.093\frac{kg}{km})\ \cdot  6\ Jahre $$\\ $$=\ 33620kg\ CO2-Ausstoß\ in\ der\ gesamten\ Nutzungsdauer$$ \\
+\mbox{}
+\newpage
+
+Elektrofahrzeug mit Batterie aus der EU:\\
+
+$$ Gesamtausstoß = 5952kg\ +\ 8000kg\ +\ (30000km\ \cdot  (0.093\frac{kg}{km})\ \cdot  6\ Jahre $$\\ $$=\ 30692kg\ CO2-Ausstoß\ in\ der\ gesamten\ Nutzungsdauer$$ \\
+\mbox{}
+\\
+b) Der Break-Even Point sei \emph{J} in Kilometern pro Jahr, beide Gleichungen zum Gesamtausstoß werden gleichgesetzt und anschließend nach \emph{J} gel\"ost:\\
+
+Für ein Elektrofahrzeug mit Batterie aus China:\\
+$$8880kg\ +\ 8000kg\ +\ J\ \cdot  0.093\frac{kg}{km}\ \cdot  6\ Jahre= 8300kg\ +\ J\ \cdot  \frac{4.5\frac{l}{100km}\ \cdot  2.65\frac{kg}{l}}{100km}\ \cdot  6\ Jahre $$\\
+oder, \\
+$$8880kg\ +\ 8000kg\ -\ 8300kg\ =\ J\ \cdot  \frac{4.5\frac{l}{100km}\ \cdot  2.65\frac{kg}{l}}{100km}\ -\ J\ \cdot  (0.093\frac{kg}{km}\ \cdot  6\ Jahre$$\\
+oder,\\
+$$J\ =\ \frac{8880kg\ +\ 8000kg\ -\ 8300kg}{\frac{4.5\frac{l}{100km}\ \cdot  2.65\frac{kg}{l}}{100km}\ -\ 0.093\frac{kg}{km}\ \cdot  6\ Jahre}\ \approx \ 54500\frac{km}{Jahr}$$
+\\\mbox{}\\
+Analog dazu bei einem Fahrzeug mit Batterie aus der EU:\\
+
+$$J\ =\ \frac{5952kg\ +\ 8000kg\ -\ 8300kg}{\frac{4.5\frac{l}{100km}\ \cdot  2.65\frac{kg}{l}}{100km}\ -\ 0.093\frac{kg}{km}\ \cdot  6\ Jahre}\ \approx\ 35800\frac{km}{Jahr}$$\\
+
+c) Erforderliche Nutzungsdauer, damit die Auswahl auf den Elektroantrieb fällt:\\
+$$ Break-Even Point\ in\ Jahren\ =\ \frac{35800\frac{km}{Jahr}\ \cdot  6\ Jahre}{30000\frac{km}{Jahr}} = 7.16 \ Jahre $$\\
+
+\paragraph{\textbf{ERGEBNISSE} $\triangleright$ }\mbox{}\\
+
+
+a) Trotz des höheren CO2 Ausstoßes beim Betrieb des Dieselfahrzeugs, ist es (bezogen auf den CO2 Ausstoß) für Dominos die bessere Wahl. Aufgrund der hohen, in der Batterieproduktion generierten CO2 Belastung, kann sich das Elektrofahrzeug bei einer Jahreslaufleistung von 30000km nicht durchsetzen.\\
+
+b) Der Break-Even Punkt befindet sich bei 54500km, bzw. 35800km pro Jahr. Ab diesem Punkt wäre der Elektroantrieb, dem Dieselmotor vorzuziehen.\\
+
+c) Damit Dominos mit der Nutzung eines Elektrofahrzeugs umweltfreundlicher sein kann, als mit einem Dieselfahrzeug, müsste das Fahrzeug bei einer Jahreslaufleistung von 30000km mindestens für 7.16 Jahre verwendet werden
+\section*{End-of-Life Phase}
+
+Es wurde bereits erwähnt, dass Manager während des Produktdesigns bedenken müssen, was mit einem Produkt oder seinen Materialien geschieht, nachdem das Produkt das Ende seiner Lebensdauer erreicht hat. Produkte mit weniger Material, mit recyceltem Material oder mit wiederverwertbaren Materialien tragen alle zur Nachhaltigkeit bei und verringern die Notwendigkeit der Entscheidung "verbrennen oder vergraben" und erm\"oglichen die Schonung knapper natürlicher Ressourcen. Innovative und nachhaltigkeitsbewusste Unternehmen entwerfen heute geschlossene Lieferketten, auch Reverse Logistics genannt. Unternehmen können nicht mehr ein Produkt verkaufen und es dann vergessen. Sie müssen End-of-Life-Systeme für die physische Rückgabe von Produkten entwerfen und implementieren, die das Recycling oder die Wiederverwendung erleichtern.\\
+Der Baumaschinenhersteller Caterpillar hat mit seinem Fachwissen über Wiederaufbereitungstechnologie und -prozesse Cat Reman, eine Wiederaufbereitungsinitiative, ins Leben gerufen, um ihr Engagement für Nachhaltigkeit zu zeigen. Caterpillar stellt Teile und Komponenten wieder her, die eine neuwertige Leistung und Zuverlässigkeit zu einem Bruchteil des Neupreises bieten und gleichzeitig die Auswirkungen auf die Umwelt reduzieren. Das Wiederaufbereitungsprogramm basiert auf einem Austauschsystem, bei dem Kunden eine gebrauchte Komponente im Austausch gegen ein wiederaufbereitetes Produkt zurückgeben. Das Ergebnis sind niedrigere Betriebskosten für den Kunden, weniger Materialabfall und ein geringerer Bedarf an Rohmaterial für die Herstellung neuer Produkte. In einem Zeitraum von einem Jahr hat Caterpillar 2.1 Millionen Altgeräte zurückgenommen und ca 59 Millionen Kilogramm recyceltes Eisen wiederaufbereitet.\\ Die Box OM in Aktion "Designing for End of Life" beschreibt die Designphilosophie von Apple, um die Demontage, das Recycling und die Wiederverwendung ihrer iPhones, die das Ende ihrer Lebensdauer erreicht haben, zu erleichtern.\\
+Photovoltaik Anlagen sind ein weiterer Bereich, in dem zukünftig gutes End of Life Management betrieben werden muss. Ein Bericht, der von der Internationalen Agentur für Erneuerbare Energien (IRENA) zusammen mit dem Programm für photovoltaische Energiesysteme der Internationalen Energieagentur (IEA-PVPS) erstellt wurde, beschäftigt sich mit genau diesem Thema. Der Einsatz der Photovoltaik (PV) hat seit Anfang der 2000er Jahre mit beispielloser Geschwindigkeit zugenommen. Mit der Zunahme des globalen PV-Markts wird auch die Menge der stillgelegten PV-Paneele zunehmen, und bis Anfang der 2030er Jahre werden große Mengen an jährlichem Abfall erwartet. Der wachsende Abfall an PV-Panelen stellt eine neue ökologische Herausforderung dar, bietet aber auch nie dagewesene Möglichkeiten, Werte zu schaffen und neue wirtschaftliche Wege zu beschreiten. Laut diesem Bericht könne das Recycling oder die Wiederverwendung von PV-Solarpaneelen am Ende ihrer etwa 30-jährigen Lebensdauer bis 2050 weltweit einen geschätzten Bestand von 78 Millionen Tonnen an Rohstoffen und anderen wertvollen Komponenten freisetzen. Bei vollständiger Rückführung in die Wirtschaft könne der Wert des zurückgewonnenen Materials bis 2050 15 Milliarden USD übersteigen. Neben des wirtschaftlichen Vorteils ergibt sich auch ein immenser Nutzen für die Umwelt und ist für den weltweiten Übergang zu einer nachhaltigen und zunehmend auf erneuerbaren Energien basierenden Energiezukunft von wesentlicher Bedeutung.\cite{pv}
+
+
+\newpage
+
+\printbibliography
+
+\end{document}

@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Sustainability in the supplychain.blg'
+[88] biber-darwin:322> INFO - === Sun Nov 15, 2020, 13:37:44
+[106] Biber.pm:415> INFO - Reading 'Sustainability in the supplychain.bcf'
+[228] Biber.pm:943> INFO - Found 4 citekeys in bib section 0
+[246] Biber.pm:4256> INFO - Processing section 0
+[247] Utils.pm:75> INFO - Globbing data source 'sources.bib'
+[247] Utils.pm:91> INFO - Globbed data source 'sources.bib' to sources.bib
+[260] Biber.pm:4455> INFO - Looking for bibtex format file 'sources.bib' for section 0
+[262] bibtex.pm:1653> INFO - LaTeX decoding ...
+[271] bibtex.pm:1471> INFO - Found BibTeX data source 'sources.bib'
+[347] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[347] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[347] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[347] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[352] bbl.pm:652> INFO - Writing 'Sustainability in the supplychain.bbl' with encoding 'UTF-8'
+[354] bbl.pm:755> INFO - Output to Sustainability in the supplychain.bbl
