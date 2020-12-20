@@ -1,0 +1,236 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{finanzministerium}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Weitere_Steuerthemen/Betriebspruefung/AfA-Tabellen/Ergaenzende-AfA-Tabellen/AfA-Tabelle_AV.pdf?__blob=publicationFile&v=3}}
+      \field{month}{12}
+      \field{number}{193ff AO , § 7 Abs 1 EStG}
+      \field{title}{AfA-Tabelle für die allgemein verwendbaren Anlagegüter (AfA-Tabelle "AV")}
+      \field{type}{Norm}
+      \field{year}{2000}
+    \endentry
+    \entry{diesel}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=17f4bb84df70a1f804f1baf3b5714960}{%
+           family={Kraftfahrzeuggewerbe},
+           familyi={K\bibinitperiod},
+           given={Deutsches},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{17f4bb84df70a1f804f1baf3b5714960}
+      \strng{fullhash}{17f4bb84df70a1f804f1baf3b5714960}
+      \strng{bibnamehash}{17f4bb84df70a1f804f1baf3b5714960}
+      \strng{authorbibnamehash}{17f4bb84df70a1f804f1baf3b5714960}
+      \strng{authornamehash}{17f4bb84df70a1f804f1baf3b5714960}
+      \strng{authorfullhash}{17f4bb84df70a1f804f1baf3b5714960}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.kfzgewerbe.de/mitglieder/werkstatt-teile/umwelt/wie-viel-co2-pro-liter-sprit-erzeugt-ein-pkw.html}}
+      \field{month}{3}
+      \field{title}{Wie viel CO2 pro Liter Sprit erzeugt ein PKW?}
+      \field{year}{2017}
+    \endentry
+    \entry{vdi}{report}{}
+      \list{institution}{1}{%
+        {VDI-Gesellschaft Fahrzeug- und Verkehrstechnik}%
+      }
+      \field{sortinit}{Ö}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Ökobilanz von Pkws mit verschiedenen Antriebssystemen}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{modest}{report}{}
+      \name{author}{6}{}{%
+        {{hash=0d4f035b02e10362119c0ddd9091a288}{%
+           family={Proske},
+           familyi={P\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=25e6bd519456e8f0387d97c52f788823}{%
+           family={Baur},
+           familyi={B\bibinitperiod},
+           given={Sarah-Jane},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=c31d2820b19472ad1adf9c437c10be32}{%
+           family={Rückschloss},
+           familyi={R\bibinitperiod},
+           given={Jana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=db6f6a1fec54b4b70e642e499fa13ebb}{%
+           family={Teusch},
+           familyi={T\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=31905761a2c030bf5f51862103091d8f}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a136df6cf4c2dbc4ab4088d99fed1c9c}{%
+           family={Poppe},
+           familyi={P\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Fraunhofer-Institut}%
+      }
+      \strng{namehash}{549a97c95a2db625cbd939fe95935edb}
+      \strng{fullhash}{c293cbcb6658178fc1b4bca7afa78e8f}
+      \strng{bibnamehash}{549a97c95a2db625cbd939fe95935edb}
+      \strng{authorbibnamehash}{549a97c95a2db625cbd939fe95935edb}
+      \strng{authornamehash}{549a97c95a2db625cbd939fe95935edb}
+      \strng{authorfullhash}{c293cbcb6658178fc1b4bca7afa78e8f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://modest-projekt.de/?page_id=583}}
+      \field{month}{6}
+      \field{title}{Bestandsaufnahme Smartphones - Übersicht Modellhistorie und modulare Konzepte}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{mpd}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=87563d597685df4b559a07b1c289fe40}{%
+           family={Revellio},
+           familyi={R\bibinitperiod},
+           given={Ferdinand},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bc51e5588ffc1b32be8b3d9050367bfc}{%
+           family={Amend},
+           familyi={A\bibinitperiod},
+           given={Clara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8199caec83889c332f4fb44afa8b1af2}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3a80496225075ea49e71c11b6ec937d1}{%
+           family={Schaltegger},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{75461a89fd66f6e6b7d3edc075d6d065}
+      \strng{fullhash}{8073dd3a7a9a059630fdf700cd68b859}
+      \strng{bibnamehash}{75461a89fd66f6e6b7d3edc075d6d065}
+      \strng{authorbibnamehash}{75461a89fd66f6e6b7d3edc075d6d065}
+      \strng{authornamehash}{75461a89fd66f6e6b7d3edc075d6d065}
+      \strng{authorfullhash}{8073dd3a7a9a059630fdf700cd68b859}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.researchgate.net/publication/339210230}}
+      \field{month}{1}
+      \field{title}{Business Opportunities for Sustainable Modular Product Designs: Briefing Paper of the 'Innovation Network aiming at Sustainable Smartphones' (INaS)}
+      \field{year}{2020}
+    \endentry
+    \entry{mp}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e6282a7448804d59f9f611df224f0c98}{%
+           family={{Schischke}},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b6f516d5b83e0aefed3a979cafd10c30}{%
+           family={{Proske}},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2bbf733088e5d7691d7489f24a190005}{%
+           family={{Nissen}},
+           familyi={N\bibinitperiod},
+           given={N.\bibnamedelimi F.},
+           giveni={N\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=0d56f123093c9c1da53cedcdc89efeb3}{%
+           family={{Lang}},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e442abcbd886eda61d05b10f4323f19}
+      \strng{fullhash}{c6d5ef8d39ec86e92b3ce598c6b24fe6}
+      \strng{bibnamehash}{7e442abcbd886eda61d05b10f4323f19}
+      \strng{authorbibnamehash}{7e442abcbd886eda61d05b10f4323f19}
+      \strng{authornamehash}{7e442abcbd886eda61d05b10f4323f19}
+      \strng{authorfullhash}{c6d5ef8d39ec86e92b3ce598c6b24fe6}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 Electronics Goes Green 2016+ (EGG)}
+      \field{title}{Modular products: Smartphone design from a circular economy perspective}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/EGG.2016.7829810
+      \endverb
+    \endentry
+    \entry{pv}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d3449f1cd54b121a95e65ef2e1a7bd68}{%
+           family={Weckend},
+           familyi={W\bibinitperiod},
+           given={Stephanie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c698d463af4de31157e6554e0e59a01d}{%
+           family={Wade},
+           familyi={W\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=12e9dec044d3e100a4f6ce1c3177c584}{%
+           family={Heath},
+           familyi={H\bibinitperiod},
+           given={Garvin},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2e293b8e53c85e678e877367c657965}
+      \strng{fullhash}{a2e293b8e53c85e678e877367c657965}
+      \strng{bibnamehash}{a2e293b8e53c85e678e877367c657965}
+      \strng{authorbibnamehash}{a2e293b8e53c85e678e877367c657965}
+      \strng{authornamehash}{a2e293b8e53c85e678e877367c657965}
+      \strng{authorfullhash}{a2e293b8e53c85e678e877367c657965}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-92-95111-99-8}
+      \field{month}{6}
+      \field{title}{End-of-life management: Solar Photovoltaic Panels}
+      \field{year}{2016}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
